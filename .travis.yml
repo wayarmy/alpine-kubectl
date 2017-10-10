@@ -3,7 +3,7 @@ services: docker
 
 env:
   global:
-  - secure: C6yEftrm67DaJdsfSHFZMO9gSMaYXG3jigQQUakb4sRp5vCo6IepPDjJ84dVtvBVvuNM4Hk92FEvnxsDMImXsnA4ZCdilvpPa3dv+jLMft+YA9qp7vVt/XBS1845PAnUPhmZi/ydP+5opdT9aksLB88WYR2ucZGjOaohcCnN+oXZ2y76N5TRrCGKMCe5MbPKCbOOJuDp1a4Q3C9RbUGWvUyiX/iNrfPHSIvxV2/TtkH0E6wjiGAgk5d8Stk/NzDerfZ3itMi5AKRmzTw1a6gDJHFQeTqq6nccPBer03FimkGAy9QUipkn2pc0E9ytkI4ZFfTweQEFfMrZ0W9J8ELQlb7F6/5AU2fCMvvlx6Vsq2OWCLAePzImQRE5b5UsGU3rkIopa7wEY+zGrzKShH9WJd0Pp5xdtypWySCvC0UHL/ztBqyvugIUnMdkKf6iR/o/C/gm4DUT6kpoTymnpA4gWCyI1iBr5VMlU9eRtKafGX9Wj6RMocMg5iwiVU0BmnytX1+bZn86XSpDSit8UsU6O1KqDE8+k3ufDXDDeAtex2nCp3D8K5bCYZynFFx860DGJzsw03GNZimtIEphNjbsMmAr1dmKhtONFRwiHFZuoH0hLOo4EHSHC/Q1bnqxevTbIcCvgDQpFOuU7wldLcaqBx2CMO05K3+mEAFXCLw+6g= # Email
+  - secure: C6yEftrm67DaJdsfSHFZMO9gSMaYXG3jigQQUakb4sRp5vCo6IepPDjJ84dVtvBVvuNM4Hk92FEvnxsDMImXsnA4ZCdilvpPa3dv+jLMft+YA9qp7vVt/XBS1845PAnUPhmZi/ydP+5opdT9aksLB88WYR2ucZGjOaohcCnN+oXZ2y76N5TRrCGKMCe5MbPKCbOOJuDp1a4Q3C9RbUGWvUyiX/iNrfPHSIvxV2/TtkH0E6wjiGAgk5d8Stk/NzDerfZ3itMi5AKRmzTw1a6gDJHFQeTqq6nccPBer03FimkGAy9QUipkn2pc0E9ytkI4ZFfTweQEFfMrZ0W9J8ELQlb7F6/5AU2fCMvvlx6Vsq2OWCLAePzImQRE5b5UsGU3rkIopa7wEY+zGrzKShH9WJd0Pp5xdtypWySCvC0UHL/ztBqyvugIUnMdkKf6iv1.8.0gm4DUT6kpoTymnpA4gWCyI1iBr5VMlU9eRtKafGX9Wj6RMocMg5iwiVU0BmnytX1+bZn86XSpDSit8UsU6O1KqDE8+k3ufDXDDeAtex2nCp3D8K5bCYZynFFx860DGJzsw03GNZimtIEphNjbsMmAr1dmKhtONFRwiHFZuoH0hLOo4EHSHC/Q1bnqxevTbIcCvgDQpFOuU7wldLcaqBx2CMO05K3+mEAFXCLw+6g= # Email
   - secure: DYPEDzIV4VUgVCjZHjWd00eclsWLV6hBbc3QeYgszcYPIRD0V2z0BfvPPIR+DtRYa8Hl2dWJDJsHdBQAQybODeIEn35GgxaRJ9BCBuaoY6yXYPF22WAkQVWWZZf4VlkOUs+o7cbLGW+bGKQR5Vk++eGCHq79HG0NR3XhUn02tJK+Qc7z82eyLsL2QF8U9ywyX4y3TSZWvejeZ/k5aMMG3EQQBMFwsXJOyAg1makhWNyt82Vf02hmjUeC3aQvW9fkTNkWyj/BW3YtUzhG727iptJDlwmXw7Zv4r5o0/aXjOSclkx0ll07lHlQvkmmhxQZJSbfdSAPRCBDwDgsFy7y/FkZEbGWw4F9CAIf/QtnMUL+aAuB2ZGuHPhP07OT3esQupyuH9amx+aYcEOZyR8ykeTihwUbTHgjfrZrB1sD+jc92ZwHEreR+AjURRgyfYX8cu4EdO+EDY0TM69B0FDP4Af+nVeaDN0OBlvUFGnatWpJJ56+qJdBLrXmtzIkulmp9nLE+tQQJP08YIb5Vq+hcF2oVQVkzQkAAWxa3OOPOUCnc98FgmLCxKJ5wuNp2xR1FZtwj8xY5NcFGo17/UlU2CFhNjIlF9buIypkNIesv7dHcOXS5URPxGxISoJh3Qc+kKyjrQlCII4M0HPnLE0rAHfbxa1ieJQieIfV9dx/3EE= # User
   - secure: OPhvdizqUtpgXcTpY/I6j3lITZp8Zjt5cNjbrA3rh46iGKGtd9uNvPhD0+QNwMX/4noRSSgxVlkuVEoDqyOLY0XBL3DdDs+wRhKwb3SsHByGrMdWJUTzRwFmY8LSjX1TxKHIBOwBDr74T/8vzYqf97n6nxM93cTJbMMbhKlB8GxoA2Qt9nOV86y9+dN/4WpHWlKFv7uXXxWouMBn25C7zbmboX5ppm4kJckj4dNx8JcObM1AJ9ZAuWlGSoSj6UDPBuMth4w1rbAI3Mn2HMfFkF9tvXI+fNRD6Bg6LSUCed0lKZEYQzSdkOFjSgkAXbhNtD5bqUie6geozxFovntXX/OX4ZNr87p0hdpQdDbSmgCH2rChT6Lhk7Q/2Wn8AZTuqb+YkPTTPcJbxJqZZcNKoG7E1YcqrDSKI7y/m8a6riGDGlqZIUR6HXwb0Smz6MpaTgw8wg595JV+Oy8D2r5TGqSX5QXYQarngFGEF7AWLu3pa7JzPmWGPMS5u/lfbRT0BGcz7I+H9jjkr0IIhb3LyNfP/Pew8M4sQEkLZzi+1M0ApMvhZQ3rH6hsLqN5X7NPBXJnBgfySZNLQozaP5waVjf3Yq3eW9mFQGMeXGRd9zRTpx2XRZr8VbmXIuEiNIIlW727gdrvTdr1r6Meptzts3dnmlAJy/jP1x8Opy/M5jE= # Password
   - COMMIT=${TRAVIS_COMMIT::8}
@@ -11,9 +11,10 @@ env:
 before_script:
   - export REPO=wayarmy/alpine-kubectl
   - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
+  - export LATEST=v$(ls -d */ | tail -1)
 script:
-  - docker build -f Dockerfile -t $REPO:$COMMIT .
-  - docker tag $REPO:$COMMIT $REPO:$TAG
+  - for i in $(ls -d */); do docker build -f $i/Dockerfile -t $REPO:v$i $i; done
+  - docker tag $REPO:$LATEST $REPO:$TAG
 
 after_success:
   - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS

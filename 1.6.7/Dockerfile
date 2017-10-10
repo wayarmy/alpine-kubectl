@@ -8,7 +8,7 @@ RUN apk add -U openssl curl tar gzip bash ca-certificates && \
   rm glibc-2.23-r3.apk
 
 # Install kubectl
-RUN curl -L -o /usr/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/latest.txt)/bin/linux/amd64/kubectl && \
+RUN curl -L -o /usr/bin/kubectl https://storage.googleapis.com/kubernetes-release/release/v1.6.0/bin/linux/amd64/kubectl && \
   chmod +x /usr/bin/kubectl && \
   kubectl version --client
 
