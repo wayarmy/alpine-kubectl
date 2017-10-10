@@ -13,7 +13,7 @@ before_script:
   - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
   - export LATEST=v$(ls -d */ | tail -1)
 script:
-  - for i in $(ls -d */); do docker build -f $i/Dockerfile -t $REPO:v$i $i; done
+  - for i in $(ls -d */ | awk -F '/' '{print $1}'); do docker build -f $i/Dockerfile -t $REPO:v$i $i; done
   - docker tag $REPO:$LATEST $REPO:$TAG
 
 after_success:
