@@ -10,7 +10,9 @@
 
 ### Kubectl Version
 
-- Support latest version of kubectl, at this time: 1.8.3
+- Latest: 1.8.0
+- 1.6.7
+- 1.7.4
 
 ### Run with kubeconfig
 
