@@ -1,21 +1,20 @@
 language: bash
 services: docker
-
 env:
   global:
-  - secure: C6yEftrm67DaJdsfSHFZMO9gSMaYXG3jigQQUakb4sRp5vCo6IepPDjJ84dVtvBVvuNM4Hk92FEvnxsDMImXsnA4ZCdilvpPa3dv+jLMft+YA9qp7vVt/XBS1845PAnUPhmZi/ydP+5opdT9aksLB88WYR2ucZGjOaohcCnN+oXZ2y76N5TRrCGKMCe5MbPKCbOOJuDp1a4Q3C9RbUGWvUyiX/iNrfPHSIvxV2/TtkH0E6wjiGAgk5d8Stk/NzDerfZ3itMi5AKRmzTw1a6gDJHFQeTqq6nccPBer03FimkGAy9QUipkn2pc0E9ytkI4ZFfTweQEFfMrZ0W9J8ELQlb7F6/5AU2fCMvvlx6Vsq2OWCLAePzImQRE5b5UsGU3rkIopa7wEY+zGrzKShH9WJd0Pp5xdtypWySCvC0UHL/ztBqyvugIUnMdkKf6iv1.8.0gm4DUT6kpoTymnpA4gWCyI1iBr5VMlU9eRtKafGX9Wj6RMocMg5iwiVU0BmnytX1+bZn86XSpDSit8UsU6O1KqDE8+k3ufDXDDeAtex2nCp3D8K5bCYZynFFx860DGJzsw03GNZimtIEphNjbsMmAr1dmKhtONFRwiHFZuoH0hLOo4EHSHC/Q1bnqxevTbIcCvgDQpFOuU7wldLcaqBx2CMO05K3+mEAFXCLw+6g= # Email
-  - secure: DYPEDzIV4VUgVCjZHjWd00eclsWLV6hBbc3QeYgszcYPIRD0V2z0BfvPPIR+DtRYa8Hl2dWJDJsHdBQAQybODeIEn35GgxaRJ9BCBuaoY6yXYPF22WAkQVWWZZf4VlkOUs+o7cbLGW+bGKQR5Vk++eGCHq79HG0NR3XhUn02tJK+Qc7z82eyLsL2QF8U9ywyX4y3TSZWvejeZ/k5aMMG3EQQBMFwsXJOyAg1makhWNyt82Vf02hmjUeC3aQvW9fkTNkWyj/BW3YtUzhG727iptJDlwmXw7Zv4r5o0/aXjOSclkx0ll07lHlQvkmmhxQZJSbfdSAPRCBDwDgsFy7y/FkZEbGWw4F9CAIf/QtnMUL+aAuB2ZGuHPhP07OT3esQupyuH9amx+aYcEOZyR8ykeTihwUbTHgjfrZrB1sD+jc92ZwHEreR+AjURRgyfYX8cu4EdO+EDY0TM69B0FDP4Af+nVeaDN0OBlvUFGnatWpJJ56+qJdBLrXmtzIkulmp9nLE+tQQJP08YIb5Vq+hcF2oVQVkzQkAAWxa3OOPOUCnc98FgmLCxKJ5wuNp2xR1FZtwj8xY5NcFGo17/UlU2CFhNjIlF9buIypkNIesv7dHcOXS5URPxGxISoJh3Qc+kKyjrQlCII4M0HPnLE0rAHfbxa1ieJQieIfV9dx/3EE= # User
-  - secure: OPhvdizqUtpgXcTpY/I6j3lITZp8Zjt5cNjbrA3rh46iGKGtd9uNvPhD0+QNwMX/4noRSSgxVlkuVEoDqyOLY0XBL3DdDs+wRhKwb3SsHByGrMdWJUTzRwFmY8LSjX1TxKHIBOwBDr74T/8vzYqf97n6nxM93cTJbMMbhKlB8GxoA2Qt9nOV86y9+dN/4WpHWlKFv7uXXxWouMBn25C7zbmboX5ppm4kJckj4dNx8JcObM1AJ9ZAuWlGSoSj6UDPBuMth4w1rbAI3Mn2HMfFkF9tvXI+fNRD6Bg6LSUCed0lKZEYQzSdkOFjSgkAXbhNtD5bqUie6geozxFovntXX/OX4ZNr87p0hdpQdDbSmgCH2rChT6Lhk7Q/2Wn8AZTuqb+YkPTTPcJbxJqZZcNKoG7E1YcqrDSKI7y/m8a6riGDGlqZIUR6HXwb0Smz6MpaTgw8wg595JV+Oy8D2r5TGqSX5QXYQarngFGEF7AWLu3pa7JzPmWGPMS5u/lfbRT0BGcz7I+H9jjkr0IIhb3LyNfP/Pew8M4sQEkLZzi+1M0ApMvhZQ3rH6hsLqN5X7NPBXJnBgfySZNLQozaP5waVjf3Yq3eW9mFQGMeXGRd9zRTpx2XRZr8VbmXIuEiNIIlW727gdrvTdr1r6Meptzts3dnmlAJy/jP1x8Opy/M5jE= # Password
   - COMMIT=${TRAVIS_COMMIT::8}
-
+  - secure: UFV9sXj4E3mVtFwi29da/4fvRx8PRzJ8V46OqIy52dL+xj1u15h3KN1YGDXwEzkQnThd6/N3Nlr/MPR4coWaCoqzxV+qxPJaoshmdhdYCD0X+dRIQyj0WisiCNd8LWL0FqkoBaEe5/+WpvOF1csTxR2jWuzUJnE4kl+rKxoBfzMmjKvfXzsn+qVz+yPT7I8LApofq5LU0GsOzP1oBddiqN8bRsDfo7vDkHypHtYdWpEjZgltEih4zyGjYPtO/b0YW5EOd3QBHivnOXBYR6twEUzHXFWswcfoWH4Kem1XBdIcj+WuvRSrKKfUs6ty+hfnfzSuqwbxXUFCrbP2Iqz2YRUB7GTGxAOQhp0LHCg/Bka0NkSY7576Q9P+h3M8VO7TAr7yugxfU9BhPBaItJiUP29MK7FEOfe+nr60yeR4IaodzyCMyiNitqLGZ9fFNjLI8iCgEfhD/Qf1slIRArP79sar0RIAK+r7pMq0rnWXKbAYytHiQHKMP5RJ/Pe807KTLh/A6yP6GqWd5Pse8OxL+b87N6mzFjTczHcRMa4An0dMgEIZZ2DHIbKKFcRRzpjgbB2jEH9PLAfcIsfhMA++yqxi/qB/Sb/Bya3nBfrJVy2L02IWiJ5FT+NtYUEyCBVHxj0XUvo4PtR+J6mEUGg1+mY2TfYu7BzUfL6xWz/sWtU= # Email
+  - secure: GZdiCqfobcnqKHEIjPv5+zaJlX2F/dZFxKAQt4lo+F+9RP6SZsuS0LAEqZAPobE//0fexpoQEuRwPbxKLR/d8IAPFjPqbCVNOJU4J1ug8DVhqBrQlz9DIiK1F1/7HrljhpPcU6wq83XRRLpIRX8Mw1kX731zTl5zbm0W5k6L2MuA8xy6xWR4Jn07VIMGiPfPeZh/XjbCbD12JeZ70KlpsHOoHAPsfhWIdoE0uxynUGQyTFegb364EcUZy0Zul96mQj69/eTwiZkIt6VG8CsciumyeyhgrpcY0deT4F3HTNFX+4G9FnM+6Rrx7xeD60II2ye4AOOiwUKPQawl+z2YoxnrWATtaBMrHgwvrVg5QBPljFP0j8joyixBIjUi9nKgunhWpVguXQ//PWCewVO3PGtvxZpvjFDcH9rTd1/VetzFyvP3c7DhEIucwZSdOBnirVDbA7bjUQFCK1fb+TY5A4kTQJWGV4dMb/bT3NTDO8d1Ex/nvcw000RTpFELbPO+Moef86kw6yXx5PoEVYAdng58TjMTpyt+F1gi+LXDKt5QM/3zX8Ek0yFdSXMXdgo6pnBYbF5TV7WcjKSAW4FUfI3e9Vu3YnqsQ2Et459Rd8cYtUv7dyutMMFNdFLq4FkbuAIH7e2jZgcz5atNn9MxkDyCUNoZzbFBCTiZitQF+7Q= # USer
+  - secure: NnDlAXHgEPTFCo9k6q83Xg81QPmJ9j8fwBFsXvGPk4dlKbrtyJ/LTRSEyRdlQ4mJsZOhsPHZHJO6oDxTCRK218+4qJsnXk0K5NCy7if+2yhxMFvzqTIgO31n+Q2EzFY/DyQyo7gyDWSLGu84DCOmU6z6H3XOzl/iVkEabToCS6mT0n2DWbJECCCjMlBmOEvUH4kOTPtIhAexmkBdjJWHqmzCYQfm+XcDYgj0JP8oPtMAot5+QRN0D3jRMda7q4zOYFQ4SE69rUwDpGeRrCT9A9qK5mRCLgzZGLeSeQ8x/Yzilsx64kEeW/TpZgGxTHUUAg7Fo9XnKI3RLZF2Jd8/yGmQYVlYG4ZV9KBj3TsWWWaL7ETrgNbf5PaC8CtdTgv1AfgstCVId/WooUGlnNtOgS8i0krgQRN5Co0VCFS21ljSDkcHzY4Doi/wskD5+OqswcPzYfqbIW6WEUj6sjAlzYsQb/XzjwJeV3929L1p+xNADLzC6XeHqUGx+o+VYad2wmrFYOpF10lLg4OmW8pYg5zdlZdzoPXghs3XF4wH3gTQQa1Q5MahJ/qykYFO+MSDJwr8ME4KylH/xquMnRJRxa9hZ+G/RnqPhhqcPiNned3KRlmYhuJjzX0n+KQ/ip47hvoOCTWXesB96U1waLmDXtt/mnh8ms7pwYySJhkWPMQ= # pass
 before_script:
-  - export REPO=wayarmy/alpine-kubectl
-  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
-  - export LATEST=v$(ls -d */ | tail -1)
+- export REPO=wayarmy/alpine-kubectl
+- export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH
+  ; fi`
+- export LATEST=v$(ls -d */ | tail -1)
 script:
-  - for i in $(ls -d */ | awk -F '/' '{print $1}'); do docker build -f $i/Dockerfile -t $REPO:v$i $i; done
-  - docker tag $REPO:$LATEST $REPO:$TAG
-
+- for i in $(ls -d */ | awk -F '/' '{print $1}'); do docker build -f $i/Dockerfile
+  -t $REPO:v$i $i; done
+- docker tag $REPO:$LATEST $REPO:$TAG
 after_success:
-  - docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-  - docker push $REPO
+- docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
+- docker push $REPO
